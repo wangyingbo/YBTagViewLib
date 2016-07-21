@@ -2,9 +2,12 @@
 
 **预览图**
 
-        ![gif图](https://raw.githubusercontent.com/wangyingbo/YBTagViewLib/master/gif.gif)
+![gif图](https://raw.githubusercontent.com/wangyingbo/YBTagViewLib/master/gif.gif)
 
-**使用说明**
+
+
+使用说明
+=======
 
 > 添加树状分支标签。导入项目；
 
