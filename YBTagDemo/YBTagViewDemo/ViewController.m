@@ -47,6 +47,7 @@
 
 /**
  *  添加树状标签，不能点击和拖拽
+ *  当contentArray的元素个数是1-4个时，tagStyle的取值是0-3；当contentArray的元素个数是5个时，tagStyle的取值范围是0-4。具体参见YBTagStyle.h
  */
 - (void)addBranchTag
 {
