@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		683CCF541D461C6300983B9C /* YBTagViewLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 683CCF531D461C6300983B9C /* YBTagViewLib.a */; };
 		68CCC4991D3F4A8000CA0F2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CCC4981D3F4A8000CA0F2D /* main.m */; };
 		68CCC49C1D3F4A8000CA0F2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CCC49B1D3F4A8000CA0F2D /* AppDelegate.m */; };
 		68CCC49F1D3F4A8000CA0F2D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CCC49E1D3F4A8000CA0F2D /* ViewController.m */; };
@@ -17,7 +18,6 @@
 		68CCC4BD1D3F4A8000CA0F2D /* YBTagViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CCC4BC1D3F4A8000CA0F2D /* YBTagViewDemoUITests.m */; };
 		68CCC4EC1D3F4F3F00CA0F2D /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CCC4EB1D3F4F3F00CA0F2D /* SecondVC.m */; };
 		68CCC6D91D40751200CA0F2D /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 68CCC6CC1D40751200CA0F2D /* test.png */; };
-		68CCC6DA1D40751200CA0F2D /* YBTagViewLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68CCC6D71D40751200CA0F2D /* YBTagViewLib.a */; };
 		68CCC6DB1D40751200CA0F2D /* yuandian.png in Resources */ = {isa = PBXBuildFile; fileRef = 68CCC6D81D40751200CA0F2D /* yuandian.png */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		683CCF531D461C6300983B9C /* YBTagViewLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = YBTagViewLib.a; sourceTree = "<group>"; };
 		68CCC4941D3F4A8000CA0F2D /* YBTagViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YBTagViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68CCC4981D3F4A8000CA0F2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		68CCC49A1D3F4A8000CA0F2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,7 +69,6 @@
 		68CCC6D41D40751200CA0F2D /* YBTagLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBTagLabel.h; sourceTree = "<group>"; };
 		68CCC6D51D40751200CA0F2D /* YBTagStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBTagStyle.h; sourceTree = "<group>"; };
 		68CCC6D61D40751200CA0F2D /* YBTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBTagView.h; sourceTree = "<group>"; };
-		68CCC6D71D40751200CA0F2D /* YBTagViewLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = YBTagViewLib.a; sourceTree = "<group>"; };
 		68CCC6D81D40751200CA0F2D /* yuandian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yuandian.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68CCC6DA1D40751200CA0F2D /* YBTagViewLib.a in Frameworks */,
+				683CCF541D461C6300983B9C /* YBTagViewLib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				68CCC6CC1D40751200CA0F2D /* test.png */,
+				683CCF531D461C6300983B9C /* YBTagViewLib.a */,
 				68CCC6CD1D40751200CA0F2D /* UIView+Extension.h */,
 				68CCC6CE1D40751200CA0F2D /* YBBranchLayer.h */,
 				68CCC6CF1D40751200CA0F2D /* YBCenterView.h */,
@@ -177,7 +178,6 @@
 				68CCC6D41D40751200CA0F2D /* YBTagLabel.h */,
 				68CCC6D51D40751200CA0F2D /* YBTagStyle.h */,
 				68CCC6D61D40751200CA0F2D /* YBTagView.h */,
-				68CCC6D71D40751200CA0F2D /* YBTagViewLib.a */,
 				68CCC6D81D40751200CA0F2D /* yuandian.png */,
 			);
 			path = YBTagViewLib;
