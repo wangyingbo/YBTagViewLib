@@ -15,7 +15,7 @@
 - 导入项目里的YBTagViewLib文件夹；
 - 因为在封装的YBTagViewLib.a静态库里封装的有Category，所以我们需要在Xcode里配置一下；
 - 在Xcode的`Build Setting`里的 `Other Linker Flags`添加值`-ObjC`或者`-all_load`，否则的话编译器会报错“找不到分类”；
-- 导入 #import "YBTagHeader.h"。
+- 在项目中使用时，导入 #import "YBTagHeader.h"。
 
 > 添加有动画的标签。不过不能点击和移动。纯展示；
 
