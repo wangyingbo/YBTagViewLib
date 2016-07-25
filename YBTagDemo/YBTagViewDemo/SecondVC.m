@@ -60,7 +60,7 @@
         SHOW_ALTER(TagwhichTag);
     };
     [self.imageView addSubview:tagView];
-    tagView.tagArray = @[@"耐克",@"耐克air_plane"];//
+    tagView.tagArray = @[@"耐克",@"耐克air_plane",@"700.00",@"美国"];//
     
 }
 
